@@ -1,0 +1,464 @@
+/*------------------------ fonts---------------------------------- */
+/*area donde se importa la letra a usar*/
+@font-face {
+  font-family: "gadugi";
+  src: url("/fonts/gadugi-normal.ttf");
+}
+
+@font-face {
+  font-family: "open sans";
+  src: url("/fonts/open-sans_360.ttf");
+}
+@font-face {
+  font-family: "open sans semibol italic";
+  src: url("/fonts/open-sans_304.ttf");
+}
+@font-face {
+  font-family: "rockwell bold";
+  src: url("/fonts/rockwell-bold.ttf");
+}
+@font-face {
+  font-family: "Myanmar Text";
+  src: url("/fonts/mmrtext.ttf");
+}
+@font-face {
+  font-family: "open sans bold italic";
+  src: url("/fonts/OpenSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "rockwell";
+  src: url("/fonts/rockwell.otf");
+}
+@font-face {
+  font-family: "cambria math";
+  src: url("/fonts/Cambria\ Math.ttf");
+}
+@font-face {
+  font-family: "sweety rasty";
+  src: url("/fonts/sweety-rasty.otf");
+}
+@font-face {
+  font-family: "calibri italic";
+  src: url("/fonts/calibri-italic.ttf");
+}
+@font-face {
+  font-family: "rockwell regular";
+  src: url("/fonts/rockwell.otf");
+}
+/*------------------------fin area fonts---------------------------------- */
+body {
+  height: 100%;
+  margin: auto;
+}
+.contenedor {
+  width: 1280px;
+  height: auto;
+  margin: auto;
+}
+/*------------------------ cabecera---------------------------------- */
+#cabecera1-1 {
+  width: 550px;
+  height: 94px;
+  background-color: #d5ebc7;
+  background-image: url(/img/Logo\ ApiBee.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90px 60px;
+  line-height: 31px;
+}
+
+.cabecera1-2{
+  width: 530px;
+  height: 94px;
+  background-color: #d5ebc7; 
+  margin-left: 340px;
+  margin-top: -94px;
+}
+
+.cabecera1-3 {
+  width: 532px;
+  height: 94px;
+  background-color: #d5ebc7;
+  margin-left: 748px;
+  margin-top: -94px;
+}
+
+#textoizquierda {
+  font-family: "Myanmar Text";
+  font-size: 13px;
+  line-height: 90px;
+  text-indent: 90px;
+  font-weight: bold;
+}
+
+#textoderecha {
+  font-family: "Myanmar Text";
+  text-indent: 200px;
+  line-height: 90px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Aqui aplicamos estilos para la Cabecera 2 donde estan los botones */
+.cabecera2 {
+  width: 1280px;
+  height: 80.76px;
+  background-color: #ededed;
+}
+
+#lista1 {
+  font-family: "open sans bold italic";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center ;
+  line-height: 82px;
+}
+.separador {
+  color: gray;
+}
+#lista1 li {
+  display: inline;
+  padding: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+a.vinculos {
+  padding: 23.5px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a.vinculos:hover {
+  color: black;
+  background-color: rgb(233, 161, 29);
+}
+/*------------------------ fin botones cabecera 2---------------------------------- */
+/*------------------------ fin cabecera---------------------------------- */
+/*------------------------ fondo---------------------------------- */
+/* Aqui inserto la imagen de fondo  */
+.cabecerafondo {
+  width: auto;
+  height: 360px;
+  background-size: 1350px auto;
+  background-image: url(/img/Fondo-Cabecera.png);
+  background-repeat:  no-repeat;
+}
+/*------------------------ fin del fondo---------------------------------- */
+/*------------------------barra---------------------------------- */
+.barra {
+  font-family: "open sans semibol italic";
+  width: 1280px;
+  height: 30px;
+  background-color: #ededed;
+  color: black;
+  line-height: 30px;
+  text-indent: 60px;
+  font-size: 20px;
+}
+/*------------------------fin de barra---------------------------------- */
+/*------------------------Contenido---------------------------------- */
+.boxdemo{
+  width: 50px;
+  height:1700px ;
+  background-color: white;
+}
+
+.contenido {
+  width: 845px;
+  height: 1700px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: -1700px;
+}
+.headerproductos{
+  font-family: "open sans bold italic";
+  width: 40%;
+  border-radius: 20px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.headerproductosadiccionales {
+  font-family: "open sans bold italic";
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#table-productos {
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+/*columnas*/
+.products-col {
+  border: 1px solid #333;
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  max-width: 230px;
+  max-height: 320px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 5px #ddd;
+}
+
+@media screen and (min-width: 700px) {
+  .products-col {
+    width: 32%;
+    float: left;
+    margin-right: 8%;
+  }
+
+  .products-col:last-child {
+    margin-right: 0px;
+  }
+}
+/*header*/
+
+.products-col-header {
+  border-radius: 50px;
+  width: 235px;
+  height: 195px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/*features*/
+.products-col-features {
+  padding: 0px 20px;
+  font-size: 18px;
+  margin: 3px auto 0px;
+  text-align: center;
+  font-family: "cambria math";
+}
+
+.products-col-features dt {
+  font-family: "rockwell";
+  font-size: 20px;
+}
+
+/*comprar*/
+.products-col-comprar {
+  padding: 10px;
+  max-width: 100px;
+  text-align: center;
+  background-color: #F69F1C;
+  margin: 0px auto 20px;
+  border-radius: 20px;
+  border: 2px solid black ;
+}
+
+.products-col-comprar a {
+  font-family: "open sans bold";
+  color: black;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.products-col-comprar:hover {
+  background-color: black;
+  transition: all 1s;
+}
+
+.products-col-comprar a:link {
+  text-decoration: none;
+}
+.products-col-comprar:hover a {
+  color: #F69F1C;
+  transition: all 0.5s;
+}
+/*Aqui aplicamos estilos al menu */
+.logo {
+  width: 400px;
+  height: 325px;
+  background-color: white;
+  text-align: center;
+  line-height: 250px;
+  margin-left: 880px;
+  margin-top: -1700px;
+}
+
+.logo dt {
+  font-size: 100px;
+  font-family: "sweety rasty";
+}
+.menu {
+  width: 385px;
+  height: 1450px;
+  background-color: white;
+  margin-left: 895px;
+  margin-top: -0px;
+}
+
+/* Aqui ingresamos la tabla de categorias y mas vendidos */
+/* Columnas */
+.categorias-col {
+  background-color: #f3f3f3;
+  width: 63%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  box-shadow: 0px 2px 5px #ddd; /*efecto espejo*/
+}
+
+/* headers */
+.categorias-col-header {
+  background-color: #F69F1C;
+  padding: 16px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.categorias-col:nth-child(2) .categorias-col-header {
+  background-color:#F69F1C;
+}
+
+.categorias-col-header h3 {
+  font-family: "calibri italic";
+  color: #0f0f0f;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Productos */
+.categorias-col-products {
+  padding: 0 20px 20px 20px;
+}
+
+.categorias-col-products p {
+  padding: 15px 0;
+  margin: 0;
+  text-align: left;
+  border-top: 1px solid #ddd;
+}
+
+
+.categorias-col-products p {
+  font-family: "rockwell regular";
+  font-size: 15px;
+}
+
+.categorias-col-products a {
+  color: black;
+}
+.categorias-col-products a:link {
+  text-decoration: none;
+}
+
+.categorias-col-products a:hover {
+  color: #F69F1C;
+  transition: all 0.5s;
+}
+/*------------------------ fin del contenido---------------------------------- */
+/*--------------------------semipies---------------------*/
+/* Aqui aplico estilos al semipie */
+.semipie1 {
+  width: 880px;
+  height: 262px;
+  background-color: rgba(128, 128, 128, 0.253);
+  word-spacing: 140px;
+  text-indent: 20px;
+  line-height: 40px;
+  font-size: 16px;
+}
+.semipie2 {
+  width: 400px;
+  height: 262px;
+  background-color: rgba(128, 128, 128, 0.253);
+  margin-left: 880px;
+  margin-top: -262px;
+}
+
+li {
+  display: inline-table;
+}
+
+.titulo {
+  font-family: "open sans";
+  font-weight: bolder;
+  font-size: 25px;
+  color: #aa7409;
+}
+
+.texto {
+  word-spacing: 0px;
+  text-indent: 15px;
+  line-height: 35px;
+  font-size: 16px;
+}
+.texto2 {
+  word-spacing: 0px;
+  text-indent: 30px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+a.vinculopie:link,
+a.vinculopie:visited {
+  color: #aa7409;
+  text-decoration: none;
+  font-family: "gadugi";
+  font-size: 20px;
+}
+
+a.vinculopie:hover,
+a.vinculopie:active {
+  color: #F69F1C;
+  transition: 0.5s;
+}
+/* Aqui es la parte del texto de descripcion */
+.descripcion {
+  font-family: "open sans semibol italic";
+  font-size: 20px;
+  text-indent: 75px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+}
+
+/* Aqui es la parte de los iconos */
+.iconos {
+  font-size: 38px;
+  text-indent: 40px;
+  line-height: 80px;
+  word-spacing: -200px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-instagram {
+  color: #c13584;
+}
+.fa-whatsapp {
+  color: #25d366;
+}
+.colors {
+  color: rgba(255, 255, 255, 0);
+}
+/*--------------------------fin del area de semipies---------------------*/
+/*--------------------------pie---------------------*/
+/* Aqui aplicamos estilos al pie de la página */
+.pie {
+  width: 1280px;
+  height: 23px;
+  background-color: #060606;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+}
+/*--------------------------fin del area de pie---------------------*/

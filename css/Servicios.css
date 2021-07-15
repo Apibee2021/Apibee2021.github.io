@@ -1,0 +1,493 @@
+/*------------------------ fonts---------------------------------- */
+/*area donde se importa la letra a usar*/
+@font-face {
+  font-family: "gadugi";
+  src: url("/fonts/gadugi-normal.ttf");
+}
+@font-face {
+  font-family: "cambria math";
+  src: url("/fonts/Cambria\ Math.ttf");
+}
+@font-face {
+  font-family: "Arial";
+  src: url("/fonts/arial.ttf");
+}
+@font-face {
+  font-family: "open sans";
+  src: url("/fonts/open-sans_360.ttf");
+}
+@font-face {
+  font-family: "open sans semibol italic";
+  src: url("/fonts/open-sans_304.ttf");
+}
+@font-face {
+  font-family: "rockwell bold";
+  src: url("/fonts/rockwell-bold.ttf");
+}
+@font-face {
+  font-family: "Myanmar Text";
+  src: url("/fonts/mmrtext.ttf");
+}
+@font-face {
+  font-family: "open sans bold italic";
+  src: url("/fonts/OpenSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "MV Bolid";
+  src: url("/fonts/mv-boli.ttf");
+}
+@font-face {
+  font-family: "rockwell";
+  src: url("/fonts/rockwell.otf");
+}
+
+@font-face {
+  font-family: "sweety rasty";
+  src: url("/fonts/sweety-rasty.otf");
+}
+@font-face {
+  font-family: "calibri italic";
+  src: url("/fonts/calibri-italic.ttf");
+}
+@font-face {
+  font-family: "rockwell regular";
+  src: url("/fonts/rockwell.otf");
+}
+@font-face {
+  font-family: "perpetua tili";
+  src: url("/fonts/PERTILI.TTF");
+}
+/*------------------------fin area fonts---------------------------------- */
+body {
+  height: 100%;
+  margin: auto;
+}
+.contenedor {
+  width: 1280px;
+  height: auto;
+  margin: auto;
+}
+/*------------------------ cabecera---------------------------------- */
+#cabecera1-1 {
+  width: 550px;
+  height: 94px;
+  background-color: #d5ebc7;
+  background-image: url(/img/Logo\ ApiBee.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90px 60px;
+  line-height: 31px;
+}
+
+.cabecera1-2{
+  width: 530px;
+  height: 94px;
+  background-color: #d5ebc7; 
+  margin-left: 340px;
+  margin-top: -94px;
+}
+
+.cabecera1-3 {
+  width: 532px;
+  height: 94px;
+  background-color: #d5ebc7;
+  margin-left: 748px;
+  margin-top: -94px;
+}
+
+#textoizquierda {
+  font-family: "Myanmar Text";
+  font-size: 13px;
+  line-height: 90px;
+  text-indent: 90px;
+  font-weight: bold;
+}
+
+#textoderecha {
+  font-family: "Myanmar Text";
+  text-indent: 200px;
+  line-height: 90px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Aqui aplicamos estilos para la Cabecera 2 donde estan los botones */
+.cabecera2 {
+  width: 1280px;
+  height: 80.76px;
+  background-color: #ededed;
+}
+
+#lista1 {
+  font-family: "open sans bold italic";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center ;
+  line-height: 82px;
+}
+.separador {
+  color: gray;
+}
+#lista1 li {
+  display: inline;
+  padding: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+a.vinculos {
+  padding: 23.5px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a.vinculos:hover {
+  color:#333;
+  background-color:#F69F1C;
+  transition: all 0.5s;
+}
+/*------------------------ fin botones cabecera 2---------------------------------- */
+/*------------------------ fin cabecera---------------------------------- */
+/*------------------------ fondo---------------------------------- */
+/* Aqui inserto la imagen de fondo  */
+.cabecerafondo {
+  width: auto;
+  height: 360px;
+  background-size: 1350px auto;
+  background-image: url(/img/Fondo-Cabecera.png);
+  background-repeat:  no-repeat;
+}
+/*------------------------ fin del fondo---------------------------------- */
+/*------------------------barra---------------------------------- */
+.barra {
+  font-family: "open sans semibol italic";
+  width: 1280px;
+  height: 30px;
+  background-color: #ededed;
+  color: black;
+  line-height: 30px;
+  text-indent: 60px;
+  font-size: 20px;
+}
+/*------------------------fin de barra---------------------------------- */
+/*------------------------Contenido---------------------------------- */
+.contenido {
+  width: 860px;
+  height: 1090px;
+  background-color: white;
+}
+
+.miel {
+  font-family: "sweety rasty";
+  font-size: 100px;
+  margin-left: 50px;
+  text-align: center;
+  width: 400px;
+  height: 60px;
+  line-height: 190px;
+  padding-top: 100px;
+}
+/*Aplicamos estilos a seccion de control y calidad*/
+.controldecalidad {
+  margin-left: 20px;
+  padding-top: -5px;
+  padding-bottom: 15px;
+  border: 1px solid white;
+  width: 830px;
+}
+
+.controldecalidad img{
+  border-radius: 15px;
+}
+
+.controldecalidad ol{
+  margin-top: -130px;
+}
+
+.controldecalidad .text1 {
+  font-family: "Arial";
+  margin-left: 265px;
+  border: 1px solid white;
+  width: 560px;
+  font-size: 17px;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.controldecalidad .text1 dt {
+  font-family: "cambria math";
+  font-size: 22px;
+}
+/*fin estilos a seccion de control y calidad*/
+/*Aplicamos estilos a seccion de diagnostico de enfermedades*/
+.diagnosticodeenfermedades {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  border: 1px solid white;
+  width: 825px;
+}
+
+.diagnosticodeenfermedades img{
+  margin-bottom: -150px;
+  margin-left: 580px ;
+  border-radius: 15px;
+}
+
+.diagnosticodeenfermedades .text2 {
+  font-family: "Arial";
+  width: 560px;
+  border: 1px solid white;
+  font-size: 17px;
+  padding: 9px;
+  margin-bottom: 20px;
+}
+
+.diagnosticodeenfermedades .text2 dt {
+  font-family: "cambria math";
+  font-size: 22px;
+}
+/*fin estilos a seccion de diagnostico de enfermedades*/
+/*Aplicamos estilos a seccion de estampado de cera*/
+.Estampadodecera {
+  margin-left: 20px;
+  padding-top: -5px;
+  padding-bottom: 15px;
+  border: 1px solid white;
+  width: 830px;
+}
+
+.Estampadodecera img{
+  border-radius: 15px;
+  margin-bottom: -10px;
+}
+
+.Estampadodecera ol{
+  margin-top: -130px;
+}
+
+.Estampadodecera .text3 {
+  font-family: "Arial";
+  margin-left: 265px;
+  border: 1px solid white;
+  width: 560px;
+  font-size: 17px;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+.Estampadodecera .text3 dt {
+  font-family: "cambria math";
+  font-size: 22px;
+}
+/*fin estilos a seccion de diagnostico de enfermedades*/
+/*Aplicamos estilos a seccion de sanidad*/
+.sanidad {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  border: 1px solid white;
+  width: 825px;
+}
+
+.sanidad img{
+  margin-bottom:-160px;
+  margin-left:570px ;
+  border-radius: 15px;
+}
+
+.sanidad .text2 {
+  font-family: "Arial";
+  width: 567px;
+  border: 1px solid white;
+  font-size: 17px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.sanidad .text2 dt {
+  font-family: "cambria math";
+  font-size: 22px;
+}
+/*fin estilos a seccion de diagnostico de sanidad*/
+
+.espaciado {
+  width: 420px;
+  height: 210px;
+  background-color: white;
+  margin-left: 860px;
+  margin-top: -966px;
+}
+
+.menu {
+  width: 420px;
+  height: 880px;
+  background-color:white;
+  margin-left: 860px;
+  margin-top: 0px;
+}
+
+.categorias-col {
+  background-color: #f3f3f3;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  box-shadow: 0px 2px 5px #ddd;
+}
+
+/* headers */
+.categorias-col-header {
+  background-color: #F69F1C;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.categorias-col:nth-child(2) .categorias-col-header {
+  background-color: #F69F1C;
+}
+
+.categorias-col-header h3 {
+  font-family: "calibri italic";
+  color: #0f0f0f;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Productos */
+.categorias-col-products {
+  padding: 0 20px 20px 20px;
+}
+
+.categorias-col-products p {
+  padding: 15px 0;
+  margin: 0;
+  text-align: left;
+  border-top: 1px solid #ddd;
+}
+
+.categorias-col-products p {
+  font-family: "rockwell regular";
+  font-size: 15px;
+}
+
+.categorias-col-products a {
+  color: black;
+}
+.categorias-col-products a:link {
+  text-decoration: none;
+}
+
+.categorias-col-products a:hover {
+  color: #F69F1C;
+  transition: all 0.5s;
+}
+.contenido2 {
+  width: 1150px;
+  background-color: white;
+}
+
+/*------------------------ fin del contenido---------------------------------- */
+/*--------------------------semipies---------------------*/
+/* Aqui aplico estilos al semipie */
+.semipie1 {
+  width: 880px;
+  height: 262px;
+  background-color: rgba(128, 128, 128, 0.253);
+  word-spacing: 140px;
+  text-indent: 20px;
+  line-height: 40px;
+  font-size: 16px;
+}
+.semipie2 {
+  width: 400px;
+  height: 262px;
+  background-color: rgba(128, 128, 128, 0.253);
+  margin-left: 880px;
+  margin-top: -262px;
+}
+
+li {
+  display: inline-table;
+}
+
+.titulo {
+  font-family: "open sans";
+  font-weight: bold;
+  font-size: 25px;
+  color: #aa7409;
+}
+
+.texto {
+  word-spacing: 0px;
+  text-indent: 15px;
+  line-height: 35px;
+  font-size: 16px;
+}
+.texto2 {
+  word-spacing: 0px;
+  text-indent: 30px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+a.vinculopie:link,
+a.vinculopie:visited {
+  color: #aa7409;
+  text-decoration: none;
+  font-family: "gadugi";
+  font-size: 20px;
+}
+
+a.vinculopie:hover,
+a.vinculopie:active {
+  color: #F69F1C;
+  transition: 0.5s;
+}
+/* Aqui es la parte del texto de descripcion */
+.descripcion {
+  font-family: "open sans semibol italic";
+  font-size: 20px;
+  text-indent: 75px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+}
+
+/* Aqui es la parte de los iconos */
+.iconos {
+  font-size: 38px;
+  text-indent: 40px;
+  line-height: 80px;
+  word-spacing: -200px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-instagram {
+  color: #c13584;
+}
+.fa-whatsapp {
+  color: #25d366;
+}
+.colors {
+  color: rgba(255, 255, 255, 0);
+}
+/*--------------------------fin del area de semipies---------------------*/
+/*--------------------------pie---------------------*/
+/* Aqui aplicamos estilos al pie de la página */
+.pie {
+  width: 1280px;
+  height: 23px;
+  background-color: #060606;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+}
+/*--------------------------fin del area de pie---------------------*/
